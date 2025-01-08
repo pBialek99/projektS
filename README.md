@@ -11,5 +11,4 @@ GET:
 
 
 DELETE:
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/4030a70d-d606-4432-8359-8ff0c9c75ab7)
