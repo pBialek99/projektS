@@ -75,11 +75,6 @@ def fetch_book(book_id):
 
 @app.route("/books", methods=["POST"])
 def create_book():
-  try:
-    data = request.json
-  except BadRequest:
-    return jsonify({"error": "Invalid JSON format"}), 400
-
   if not data or "title" not in data or "author" not in data:
     return jsonify({"error": "Invalid data. 'title' and 'author' are required"}), 400
 
